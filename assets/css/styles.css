@@ -2,7 +2,7 @@ ul {
   list-style-type: none;
 }
 
-li {
+.nav-item {
   display: inline;
   padding: 10px;
   font-size: 18px;
@@ -10,29 +10,66 @@ li {
   letter-spacing: 5px;
   line-height: 10px;
   text-transform: uppercase;
-  font-weight: 100;
+}
+
+.footer-item {
+  display: inline;
+  padding: 5px;
+  font-size: 14px;
+  font-family: Courier-New;
+  letter-spacing: 3px;
+  line-height: 8px;
+  text-transform: uppercase;
+}
+
+.footer {
+  height: auto;
+  padding: 15px;
+}
+
+.footer-text {
+  letter-spacing: 2px;
+  padding: 5px
+}
+
+.nav-anchor {
+  color: #696969
+}
+
+.nav-anchor:hover{
+  text-decoration:none;
+  color: #4682B4;
 }
 
 .logo {
   height: 150px;
+  text-align: center;
 }
 
 .about {
-  height: auto;
-  /* background-image: url("../images/rss-home.jpeg"); */
-  background-position: center bottom;
+  height: 350px;
 }
 
 .about-heading {
   font-family: Verdana;
-
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #AFDCEC;
+  padding: 10px 0px 5px 0px;
 }
+
 .about-text {
   line-height: 25px;
   letter-spacing: 3px;
   font-size: 20px;
   font-family: Verdana;
   width: 75%;
+  padding: 5px 0px 15px 0px;
+  color: #808080;
+}
+
+.about-button {
+  margin: 5px;
 }
 
 .thumbnail {
@@ -42,8 +79,9 @@ li {
 }
 
 .thumbnail-image {
-  transition: .5s ease;
+  transition: .3s ease;
   backface-visibility: hidden;
+  width: 95%;
 }
 
 .centered {
@@ -51,6 +89,10 @@ li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 16px;
+  color: #4682B4;
 }
 
 .thumbnail:hover .thumbnail-image {
@@ -66,7 +108,7 @@ li {
 }
 
 .middle {
-  transition: .5s ease;
+  transition: .3s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
