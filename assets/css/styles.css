@@ -1,4 +1,7 @@
-ul {
+/* heading text colour blue #AFDCEC */
+
+
+ .menu-items {
   list-style-type: none;
 }
 
@@ -34,10 +37,6 @@ ul {
   vertical-align: middle;
 }
 
-.dashes {
-  letter-spacing: 5px;
-}
-
 .footer-item {
   display: inline;
   padding: 5px;
@@ -68,7 +67,7 @@ ul {
 }
 
 .logo {
-  height: 150px;
+  height: auto;
   text-align: center;
 }
 
@@ -76,7 +75,7 @@ ul {
   height: 350px;
 }
 
-.about-heading {
+.about-heading, .services-heading {
   font-family: Verdana;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -90,6 +89,20 @@ ul {
   font-size: 20px;
   font-family: Verdana;
   width: 75%;
+  padding: 5px 0px 15px 0px;
+  color: #808080;
+}
+
+#services .services {
+  height: auto;
+  padding-bottom: 25px;
+}
+
+#services .services-text {
+  line-height: 25px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-family: Verdana;
   padding: 5px 0px 15px 0px;
   color: #808080;
 }
@@ -142,4 +155,39 @@ ul {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#services .services-list {
+  list-style: none;
+  line-height: 25px;
+  color: #808080;
+}
+
+#services .services-list li {
+  font-size: 16px;
+}
+
+#services .services-list li::before {
+  content: "※";
+  color: #ff6a80;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em
+}
+
+#services .panel-heading {
+  font-size: 22px;
+  font-family: cursive;
+}
+
+#services .panel-body {
+  height: 250px;
+}
+
+.services-restrictions-heading {
+  font-family: Verdana;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #ff6a80;
+  padding: 10px 0px 5px 0px;
 }
