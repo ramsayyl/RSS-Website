@@ -93,6 +93,10 @@
   color: #808080;
 }
 
+.middle-text {
+  color: #ff6a80;
+}
+
 #services .services {
   height: auto;
   padding-bottom: 25px;
@@ -175,6 +179,27 @@
   margin-left: -1em
 }
 
+#services .restrictions-list {
+  list-style: none;
+  line-height: 25px;
+  color: #808080;
+}
+
+#services .restrictions-list li::before {
+  content: "※";
+  color: #AFDCEC;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em
+}
+
+
+#services .cost p {
+  font-size: 16px;
+  color: #696969;
+  font-family: Verdana;
+}
+
 #services .panel-heading {
   font-size: 22px;
   font-family: cursive;
@@ -184,10 +209,23 @@
   height: 250px;
 }
 
-.services-restrictions-heading {
+#services .cost-panel {
+  margin-top: 50px;
+}
+
+#services .services-restrictions {
+  padding-bottom: 25px;
+}
+
+#services .services-restrictions-heading {
   font-family: Verdana;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #ff6a80;
   padding: 10px 0px 5px 0px;
+}
+
+#services .services-restrictions-subheading {
+  font-family: Verdana;
+  color: #696969;
 }
