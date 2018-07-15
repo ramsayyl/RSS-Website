@@ -75,7 +75,7 @@
   height: 350px;
 }
 
-.about-heading, .services-heading {
+.about-heading, .services-heading, .eligibility-heading {
   font-family: Verdana;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -176,7 +176,7 @@
   color: #ff6a80;
   display: inline-block;
   width: 1em;
-  margin-left: -1em
+  margin-left: -1em;
 }
 
 #services .restrictions-list {
@@ -190,7 +190,7 @@
   color: #AFDCEC;
   display: inline-block;
   width: 1em;
-  margin-left: -1em
+  margin-left: -1em;
 }
 
 
@@ -228,4 +228,56 @@
 #services .services-restrictions-subheading {
   font-family: Verdana;
   color: #696969;
+}
+
+#eligibility .eligibility-list {
+  list-style: none;
+  line-height: 25px;
+  color: #808080;
+  font-size: 18px;
+}
+
+#eligibility .eligibility-list li::before {
+  content: "※";
+  color: #ff6a80;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#eligibility .panel-heading {
+  font-size: 22px;
+  font-family: cursive;
+}
+
+#eligibility .booking-text {
+  font-size: 16px;
+  color: #696969;
+  font-family: Verdana;
+}
+
+#eligibility .contact-list {
+  list-style: none;
+  line-height: 25px;
+  color: #808080;
+}
+
+#eligibility .contact-list li {
+  font-size: 16px;
+}
+
+#eligibility .contact-list li::before {
+  content: "※";
+  color: #AFDCEC;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#eligibility .cancellation-heading {
+  font-family: Verdana;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #ff6a80;
 }
