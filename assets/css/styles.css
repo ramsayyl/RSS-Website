@@ -1,5 +1,8 @@
 /* heading text colour blue #AFDCEC */
 
+body {
+  background: linear-gradient(to top, #AFDCEC 0%, #fff 103%);
+}
 
  .menu-items {
   list-style-type: none;
@@ -63,7 +66,7 @@
 
 .nav-anchor:hover{
   text-decoration:none;
-  color: #4682B4;
+  color: #ff6a80;
 }
 
 .logo {
@@ -71,26 +74,38 @@
   text-align: center;
 }
 
-.about {
-  height: 350px;
-}
-
-.about-heading, .services-heading, .eligibility-heading {
+.services-heading, .eligibility-heading {
   font-family: Verdana;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #AFDCEC;
+  color: #79CDCD;
   padding: 10px 0px 5px 0px;
 }
 
-.about-text {
-  line-height: 25px;
-  letter-spacing: 3px;
-  font-size: 20px;
+.carousel {
+  margin-bottom: 25px;
+}
+
+.carousel .carousel-inner .item .img-responsive {
+  height: 500px;
+  width: 100%;
+}
+
+.carousel-caption {
+  text-align: left;
+  padding-bottom: 15%;
+  padding-right: 10%;
   font-family: Verdana;
-  width: 75%;
-  padding: 5px 0px 15px 0px;
-  color: #808080;
+}
+
+.carousel-heading {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.carousel-text {
+  font-size: 20px;
 }
 
 .middle-text {
@@ -134,8 +149,9 @@
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 16px;
-  color: #4682B4;
+  font-size: 26px;
+  color: #AFDCEC;
+  background-color: #ff6a80;
 }
 
 .thumbnail:hover .thumbnail-image {
@@ -187,17 +203,10 @@
 
 #services .restrictions-list li::before {
   content: "※";
-  color: #AFDCEC;
+  color: #ff6a80;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
-}
-
-
-#services .cost p {
-  font-size: 16px;
-  color: #696969;
-  font-family: Verdana;
 }
 
 #services .panel-heading {
@@ -221,13 +230,17 @@
   font-family: Verdana;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #ff6a80;
+  color: #79CDCD;
   padding: 10px 0px 5px 0px;
 }
 
 #services .services-restrictions-subheading {
   font-family: Verdana;
   color: #696969;
+}
+
+#eligibility .eligibility {
+  height: 580px;
 }
 
 #eligibility .eligibility-list {
@@ -269,7 +282,7 @@
 
 #eligibility .contact-list li::before {
   content: "※";
-  color: #AFDCEC;
+  color: #79CDCD;
   display: inline-block;
   width: 1em;
   margin-left: -1em;

@@ -2,9 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="icon" href="assets/images/rss-favicon.jpg">
+    <link rel="icon" href="assets/images/rss-favicon-transparent.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <title>Reliable Support Services</title>
@@ -14,7 +13,7 @@
     <div class="container">
 
       <div class="logo">
-        <img src="assets/images/logo.jpg" alt="Place logo Here" height="250" width="350">
+        <img src="assets/images/logo-transparent.png" alt="Place logo Here" height="250" width="350">
       </div>
 
       <div class="navbar text-center">
@@ -28,20 +27,54 @@
         </ul>
       </div>
 
-      <div class="about">
-        <h1 class="about-heading">Agency Overview</h1>
-        <p class="about-text align-middle">Reliable Support Services is a private community based
-          agency dedicated to providing reliable, supportive and
-          qualitative care to seniors and adults with physical and/or
-          emotional challenges. We operate from a care-first framework, which means our
-          clients overall needs are essential to our services.</p>
-          <button class="about-button btn btn-info btn-lg"type="button" name="button">Learn More</button>
+      <div id="my-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#my-carousel" data-slide-to="1"></li>
+          <li data-target="#my-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img class="img-responsive" src="assets/images/rss-overview.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-heading">Agency Overview</h5>
+              <p class="carousel-text">Reliable Support Services is a private community based
+                agency dedicated to providing reliable, supportive and
+                qualitative care to seniors and adults with physical and/or
+                emotional challenges. We operate from a care-first framework, which means our
+                clients overall needs are essential to our services.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="img-responsive" src="assets/images/rss-mission.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-heading">Mission</h5>
+              <p class="carousel-text">Reliable Support Services will continuously strive to provide reliable, qualitative
+                support at <strong>all</strong> times to ensure maximum health, wellness and overall satisfaction</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="img-responsive" src="assets/images/rss-goal.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-heading">Goal</h5>
+              <p class="carousel-text">Our goal is to provide life-changing support to every clients we offer services</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control left" href="#my-carousel" role="button" data-slide="prev">
+          <span class="icon-prev" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control right" href="#my-carousel" role="button" data-slide="next">
+          <span class="icon-next" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
 
       <div class="row">
         <div class="col-md-6 thumbnail">
           <a href="services.html">
-            <img class="thumbnail-image" src="assets/images/rss-home.jpeg" alt="Homemaking"><div class="centered">Homemaking</div>
+            <img class="thumbnail-image" src="assets/images/rss-make.jpeg" alt="Homemaking"><div class="centered">Homemaking</div>
           </a>
           <div class="middle">
             <div class="middle-text">Learn More</div>
@@ -50,7 +83,7 @@
 
         <div class="col-md-6 thumbnail">
           <a href="services.html">
-            <img class="thumbnail-image" src="assets/images/rss-home.jpeg" alt="Home Cleaning"><div class="centered">Home Cleaning</div>
+            <img class="thumbnail-image" src="assets/images/rss-clean.jpeg" alt="Home Cleaning"><div class="centered">Home Cleaning</div>
           </a>
           <div class="middle">
             <div class="middle-text">Learn More</div>
@@ -71,6 +104,12 @@
 
         </div>
       </div>
+
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js">
+
+    </script>
 
     </div>
 
