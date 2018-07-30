@@ -8,7 +8,7 @@ body {
   list-style-type: none;
 }
 
-.navbar hr {
+/* .navbar hr {
   display: inline-block;
   vertical-align: middle;
   overflow: visible;
@@ -17,23 +17,24 @@ body {
   border-top: medium double #696969;
   color: #696969;
   text-align: center;
-}
+} */
 
-.navbar hr:after {
+/* .navbar hr:after {
   display: inline-block;
   position: relative;
   top: -0.7em;
   font-size: 1.5em;
   padding: 0 0.25em;
   background: white;
-}
+} */
 
 .nav-item {
   display: inline;
-  padding: 10px;
-  font-size: 20px;
+  padding: 5px;
+  margin-top: 25%;
+  font-size: 18px;
   font-family: Courier-New;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   line-height: 10px;
   text-transform: uppercase;
   display: inline-block;
@@ -74,7 +75,7 @@ body {
   text-align: center;
 }
 
-.services-heading, .eligibility-heading {
+.services-heading, .eligibility-heading, .contact-heading {
   font-family: Verdana;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -240,7 +241,7 @@ body {
 }
 
 #eligibility .eligibility {
-  height: 580px;
+  height: 635px;
 }
 
 #eligibility .eligibility-list {
@@ -294,4 +295,19 @@ body {
   font-size: 16px;
   letter-spacing: 2px;
   color: #ff6a80;
+}
+
+#contact .contact{
+  height: 650px;
+}
+
+#n, #e, #m {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
