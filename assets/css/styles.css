@@ -28,6 +28,23 @@ body {
   background: white;
 } */
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slogan {
+  animation: 1.5s ease-out 0s 1 slideInFromLeft;
+  text-transform: uppercase;
+  font-family: Verdana;
+  color: #79CDCD;
+  padding-bottom: 10px;
+}
+
 .nav-item {
   display: inline;
   padding: 5px;
@@ -310,4 +327,15 @@ body {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+}
+
+#contact .contact-info-text {
+  font-size: 18px;
+  font-family: Verdana;
+  color: #808080;
+  line-height: 20px;
+}
+
+#contact .fa {
+  color: #79CDCD;
 }
