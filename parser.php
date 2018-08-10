@@ -5,7 +5,7 @@ if( isset($_POST['n']) && isset($_POST['e']) && isset($_POST['m']) ){
 	$m = nl2br($_POST['m']);
 	$to = "luke@lukeramsay.ca";
 	$from = $e;
-	$subject = 'Sent From lukeramsay.ca';
+	$subject = 'Sent From reliablesupportservices.com';
 	$message = '<b>Name:</b> '.$n.' <br><b>Email:</b> '.$e.' <p>'.$m.'</p>';
 	$headers = "From: $from\n";
 	$headers .= "MIME-Version: 1.0\n";
