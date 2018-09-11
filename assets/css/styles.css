@@ -25,6 +25,40 @@ body {
   padding-bottom: 10px;
 }
 
+#home .jobs {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    font-family: Verdana;
+    color: #79cdcd;
+    text-transform: uppercase;
+    margin-top: 5%;
+
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
 .nav-item {
   display: inline;
   padding: 5px;
@@ -319,4 +353,56 @@ body {
 
 #contact .fa {
   color: #79CDCD;
+}
+
+#jobs .services-list {
+  list-style: none;
+  line-height: 25px;
+  color: #808080;
+}
+
+#jobs .services-list li {
+  font-size: 16px;
+}
+
+#jobs .services-list li::before {
+  content: "※";
+  color: #ff6a80;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#jobs .panel-heading {
+  font-size: 22px;
+  font-family: cursive;
+}
+
+#jobs .panel-body {
+  height: auto;
+}
+
+#jobs .job {
+  font-size: 16px;
+  color: #696969;
+  font-family: Verdana;
+}
+
+#jobs .heading {
+  font-weight: bold;
+  color: #79cdcd;
+  font-family: Verdana;
+  font-size: 18;
+}
+
+#jobs .outro {
+  color: #696969;
+  letter-spacing: 2px;
+  font-family: Verdana;
+}
+
+#jobs .in-touch {
+  text-transform: uppercase;
+  margin-top: 5%;
+
 }
