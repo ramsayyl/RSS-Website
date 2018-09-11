@@ -8,26 +8,6 @@ body {
   list-style-type: none;
 }
 
-/* .navbar hr {
-  display: inline-block;
-  vertical-align: middle;
-  overflow: visible;
-  padding: 0;
-  border: none;
-  border-top: medium double #696969;
-  color: #696969;
-  text-align: center;
-} */
-
-/* .navbar hr:after {
-  display: inline-block;
-  position: relative;
-  top: -0.7em;
-  font-size: 1.5em;
-  padding: 0 0.25em;
-  background: white;
-} */
-
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -165,9 +145,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  line-height: 30px;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 26px;
+  letter-spacing: 2.5px;
+  font-size: 25px;
   color: #AFDCEC;
   background-color: #ff6a80;
 }
